@@ -23,7 +23,7 @@ public class JobServiceImpl implements IJobService {
 
     private final JobRepository jobRepository;
     private final JobPortalUserRepository userRepository;
-    x
+
     @Override
     public List<JobDto> getEmployerJobs(String employerEmail) {
         JobPortalUser employer = userRepository.findJobPortalUserByEmail(employerEmail)
