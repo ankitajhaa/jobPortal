@@ -4,6 +4,7 @@ import com.eazybytes.jobportal.dto.ContactRequestDto;
 import com.eazybytes.jobportal.dto.ContactResponseDto;
 import org.springframework.data.domain.Page;
 
+import java.io.IOException;
 import java.util.List;
 
 public interface IContactService {
